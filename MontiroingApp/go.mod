@@ -16,4 +16,5 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	golang.org/x/sys v0.19.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
+	 github.com/lib/pq v1.10.9 // indirect
 )
