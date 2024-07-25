@@ -1,6 +1,9 @@
 package database
 
-import "database/sql"
+import (
+	"database/sql"
+	_ "github.com/lib/pq"
+)
 
 func InitDB() (*DBRepository, error) {
 	// Todo: Add host and creds of DB in config file
